@@ -30,4 +30,8 @@ foreach ($myArray as $element){
 foreach ($myArray as $key => $element){
     echo '<li>'. $element . ', position: '. $key. '</li>';
 }
+echo '<br>';
+$myArray4 = ['SQL','MYSQL','MARIADB'];
+echo $myArray4[];
+
 ?>
